@@ -38,6 +38,9 @@
         "justinrainbow/json-schema": "^5.2",
         "guzzlehttp/uri-template": "^0.2.0"
     },
+    "replace": {
+        "php-opencloud/openstack": "self.version"
+    },
     "require-dev": {
         "phpunit/phpunit": "^6.5",
         "psr/log": "^1.0",
