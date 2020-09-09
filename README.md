@@ -4,12 +4,21 @@
 [![Coverage Status](https://coveralls.io/repos/github/php-opencloud/openstack/badge.svg?branch=master)](https://coveralls.io/github/php-opencloud/openstack?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/php-opencloud/openstack/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/php-opencloud/openstack/?branch=master)
 
+`guzzlehttp/guzzle:^7.0` support since `webnuvola/openstack:^3.0.7`.
+
 `php-opencloud/openstack` is an SDK which allows PHP developers to easily connect to OpenStack APIs in a simple and 
 idiomatic way. This binding is specifically designed for OpenStack APIs, but other provider SDKs are available. Multiple 
 OpenStack services, and versions of services, are supported.
 
+## How to install
+
+```bash
+composer require webnuvola/openstack
+```
+
 ## Links
 
+* [php-opencloud/openstack repository](https://github.com/php-opencloud/openstack)
 * [Official documentation](https://php-openstack-sdk.readthedocs.io/en/latest/)
 * [Reference documentation](http://refdocs.os.php-opencloud.com)
 * [Contributing guide](/CONTRIBUTING.md)
@@ -38,14 +47,8 @@ This change was introduced in [#184](https://github.com/php-opencloud/openstack/
 
 ## Requirements
 
-* PHP 7.0
+* PHP 7.2
 * `ext-curl`
-
-## How to install
-
-```bash
-composer require php-opencloud/openstack
-```
 
 ## Contributing
 

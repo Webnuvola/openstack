@@ -1,6 +1,6 @@
 {
-    "name": "php-opencloud/openstack",
-    "description": "PHP SDK for OpenStack APIs. Supports BlockStorage, Compute, Identity, Images, Networking and Metric Gnocchi",
+    "name": "webnuvola/openstack",
+    "description": "guzzlehttp/guzzle:^7.0 support. PHP SDK for OpenStack APIs. Supports BlockStorage, Compute, Identity, Images, Networking and Metric Gnocchi",
     "keywords": [
         "php",
         "openstack",
